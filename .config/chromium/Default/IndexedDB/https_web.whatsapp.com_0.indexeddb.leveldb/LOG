@@ -1,0 +1,18 @@
+2021/07/16-08:06:54.411 238d Creating DB /home/jadiel/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2021/07/16-08:06:54.504 238d Reusing MANIFEST /home/jadiel/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/16-08:07:53.093 23ac Level-0 table #5: started
+2021/07/16-08:07:53.178 23ac Level-0 table #5: 220542 bytes OK
+2021/07/16-08:07:53.253 23ac Delete type=0 #3
+2021/07/16-08:07:53.255 238d Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/07/16-08:29:17.723 3ddd Level-0 table #7: started
+2021/07/16-08:29:18.084 3ddd Level-0 table #7: 46621 bytes OK
+2021/07/16-08:29:18.321 3ddd Delete type=0 #4
+2021/07/16-08:29:18.322 3ddd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/07/16-08:29:18.322 3ddd Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x02\x02\x01\x13\x005\x005\x006\x002\x009\x009\x006\x008\x001\x007\x005\x005\x00%\x004\x000\x00c\x00.\x00u\x00s' @ 9393 : 0
+2021/07/16-08:29:18.322 3ddd Compacting 1@1 + 1@2 files
+2021/07/16-08:29:18.427 3ddd Generated table #8@1: 382 keys, 21747 bytes
+2021/07/16-08:29:18.427 3ddd Compacted 1@1 + 1@2 files => 21747 bytes
+2021/07/16-08:29:18.460 3ddd compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/07/16-08:29:18.461 3ddd Delete type=2 #7
+2021/07/16-08:29:18.461 3ddd Delete type=2 #5
+2021/07/16-08:29:18.461 3ddd Manual compaction at level-1 from '\x00\x03\x02\x02\x01\x13\x005\x005\x006\x002\x009\x009\x006\x008\x001\x007\x005\x005\x00%\x004\x000\x00c\x00.\x00u\x00s' @ 9393 : 0 .. (end); will stop at (end)

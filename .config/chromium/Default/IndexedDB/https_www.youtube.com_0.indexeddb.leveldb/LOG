@@ -1,0 +1,6 @@
+2021/07/16-08:10:25.366 23af Creating DB /home/jadiel/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2021/07/16-08:10:25.485 23af Reusing MANIFEST /home/jadiel/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/16-08:10:29.716 23af Level-0 table #5: started
+2021/07/16-08:10:29.752 23af Level-0 table #5: 3081 bytes OK
+2021/07/16-08:10:29.784 23af Delete type=0 #3
+2021/07/16-08:10:29.784 23af Manual compaction at level-0 from (begin) .. (end); will stop at (end)

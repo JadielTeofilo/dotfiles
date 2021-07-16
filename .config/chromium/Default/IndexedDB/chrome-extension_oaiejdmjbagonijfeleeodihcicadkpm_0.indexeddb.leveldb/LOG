@@ -1,0 +1,6 @@
+2021/07/16-08:06:42.425 2415 Creating DB /home/jadiel/.config/chromium/Default/IndexedDB/chrome-extension_oaiejdmjbagonijfeleeodihcicadkpm_0.indexeddb.leveldb since it was missing.
+2021/07/16-08:06:42.540 2415 Reusing MANIFEST /home/jadiel/.config/chromium/Default/IndexedDB/chrome-extension_oaiejdmjbagonijfeleeodihcicadkpm_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/16-08:06:44.596 238d Level-0 table #5: started
+2021/07/16-08:06:44.631 238d Level-0 table #5: 217 bytes OK
+2021/07/16-08:06:44.665 238d Delete type=0 #3
+2021/07/16-08:06:44.665 23ac Manual compaction at level-0 from (begin) .. (end); will stop at (end)

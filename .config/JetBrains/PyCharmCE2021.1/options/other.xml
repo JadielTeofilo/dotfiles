@@ -1,0 +1,70 @@
+<application>
+  <component name="ProjectPluginTrackerManager">
+    <trackers>
+      <map>
+        <entry key="1vDWYb8ufezfGXWazeZ8EsVT08z">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1vE2uoNkSMzRnNfkxDS3VN0fgtD">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1vE5fZdz8tQDYQDifHLh0pIe3Z4">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1vE5jm0K67SHlLDVTqtkrCRiEaL">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FindSplitterProportion" value="0.32628062" />
+    <property name="KEYMAP" value="open recent&#10;open&#10;close&#10;extend" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="SettingsSearchHistory" value="shortcu" />
+    <property name="appcds.runOnSecondStart" value="PC-211.7628.24-6106cc16767f6ccbcc0408465a6c7856fa8bb3a76b660327945b0c832cbd3bb7" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Documents/cmg/SuapDocker&#10;/home/jadiel/Documents/cmg/SuapApi&#10;/home/jadiel/Documents/teste2&#10;/home/jadiel/Documents/test" />
+    <property name="file.gist.reindex.count" value="40740" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="fileTypeDetectors" value="com.intellij.ide.scratch.ScratchFileServiceImpl$Detector" />
+    <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
+    <property name="got.it.tooltip.reader.mode.got.it" value="1" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="PC-211.7628.24" />
+    <property name="lastSeenTip" value="neue-jump_to_colors_fonts.html" />
+    <property name="lastTimeTipsWereShown" value="1626097194818" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/test" />
+    <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
+    <property name="seenTips" value="neue-jump_to_colors_fonts.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="SuapDocker-history1" project-path="$USER_HOME$/Documents/cmg/SuapDocker" last-access-time="1626432435203" />
+      <command-history-file filename="SuapDocker-history2" project-path="$USER_HOME$/Documents/cmg/SuapDocker" last-access-time="1626432435343" />
+      <command-history-file filename="SuapDocker-history" project-path="$USER_HOME$/Documents/cmg/SuapDocker" last-access-time="1626432435182" />
+      <command-history-file filename="SuapApi-history" project-path="$USER_HOME$/Documents/cmg/SuapApi" last-access-time="1626440350318" />
+      <command-history-file filename="SuapApi-history1" project-path="$USER_HOME$/Documents/cmg/SuapApi" last-access-time="1626440350320" />
+    </command-history-files>
+  </component>
+  <component name="ToolbarSettingsService">
+    <option name="NEW_TOOLBAR_SETTINGS" value="OLD_NAVBAR" />
+  </component>
+</application>

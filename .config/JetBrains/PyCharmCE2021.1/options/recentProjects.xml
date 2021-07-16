@@ -1,0 +1,56 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Documents/test">
+          <value>
+            <RecentProjectMetaInfo frameTitle="test – main.py" projectWorkspaceId="1vDWYb8ufezfGXWazeZ8EsVT08z">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-211.7628.24" />
+              <option name="buildTimestamp" value="1625032098796" />
+              <frame x="0" y="18" width="1920" height="1043" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1626113153120" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/teste2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="teste2 – main.py" projectWorkspaceId="1vE2uoNkSMzRnNfkxDS3VN0fgtD">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-211.7628.24" />
+              <option name="buildTimestamp" value="1625032106063" />
+              <frame x="0" y="0" width="1920" height="1061" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1626114547854" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/cmg/SuapApi">
+          <value>
+            <RecentProjectMetaInfo frameTitle="SuapApi – public_employee.json" projectWorkspaceId="1vE5fZdz8tQDYQDifHLh0pIe3Z4">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-211.7628.24" />
+              <option name="buildTimestamp" value="1625032101228" />
+              <frame x="960" y="0" width="960" height="1061" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1626440349483" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/cmg/SuapDocker">
+          <value>
+            <RecentProjectMetaInfo frameTitle="SuapDocker – docker-compose.prod.yml" opened="true" projectWorkspaceId="1vE5jm0K67SHlLDVTqtkrCRiEaL">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-211.7628.24" />
+              <option name="buildTimestamp" value="1625032101228" />
+              <frame x="0" y="0" width="1920" height="1061" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1626440371916" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

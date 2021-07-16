@@ -1,0 +1,24 @@
+[global_config]
+[keybindings]
+  new_tab = <Primary>t
+  cycle_next = <Super>Tab
+  cycle_prev = <Shift><Super>Tab
+  close_term = <Primary>w
+  next_tab = <Primary>Tab
+  prev_tab = <Primary><Shift>Tab
+  new_terminator = dead_grave
+[profiles]
+  [[default]]
+    background_darkness = 0.76
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
