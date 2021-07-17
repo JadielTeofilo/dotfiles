@@ -1,19 +1,16 @@
 #!/bin/bash
-ismute=true
+islive=false
 
-
-
-mute_status=$(pacmd list-sources | grep -e 'index' -e 'muted:' | sed -n -e '/index: 2/, $p' | head -n2 | tail -n1 | grep yes)
+mute_status=$(pacmd list-sources | grep -e 'index' -e 'muted:' | grep no)
 if [ -z "$mute_status" ];
 then
-    ismute=false
-else
     true
+else
+    islive=true
 fi
 
 
-
-if [ ${ismute} = true ]
+if [ ${islive} != true ]
 then
     echo " MUTE"
 else 
