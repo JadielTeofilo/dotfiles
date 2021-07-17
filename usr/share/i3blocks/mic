@@ -2,13 +2,6 @@
 ismute=true
 
 
-mute_status=$(pacmd list-sources | grep -e 'index' -e 'muted:' | sed -n -e '/index: 1/, $p' | head -n2 | tail -n1 | grep yes)
-if [ -z "$mute_status" ];
-then
-    ismute=false
-else
-    true
-fi
 
 mute_status=$(pacmd list-sources | grep -e 'index' -e 'muted:' | sed -n -e '/index: 2/, $p' | head -n2 | tail -n1 | grep yes)
 if [ -z "$mute_status" ];
@@ -18,21 +11,6 @@ else
     true
 fi
 
-mute_status=$(pacmd list-sources | grep -e 'index' -e 'muted:' | sed -n -e '/index: 4/, $p' | head -n2 | tail -n1 | grep yes)
-if [ -z "$mute_status" ];
-then
-    ismute=false
-else
-    true
-fi
-
-mute_status=$(pacmd list-sources | grep -e 'index' -e 'muted:' | sed -n -e '/index: 5/, $p' | head -n2 | tail -n1 | grep yes)
-if [ -z "$mute_status" ];
-then
-    ismute=false
-else
-    true
-fi
 
 
 if [ ${ismute} = true ]
