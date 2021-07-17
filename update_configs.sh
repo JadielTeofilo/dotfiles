@@ -1,4 +1,6 @@
 cp -R ~/.config/i3 .config/
+cp ~/.config/i3blocks.conf .config/i3blocks.conf
+sudo cp /bin/startup.sh bin/startup.sh
 sudo cp /bin/startup.sh bin/startup.sh
 git add -A
 git commit -m "updating conf $(date)"
