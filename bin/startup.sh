@@ -2,11 +2,12 @@ xrandr --output HDMI-1 --brightness 0.6
 i3-msg 'workspace 1: Media ; exec /usr/bin/firefox'
 sleep 1
 i3-msg 'workspace 2: Code ; exec code'
-sleep 1
+sleep 3 
 i3-msg 'workspace 3: Term ; exec /usr/bin/terminator'
 nohup clipster -d &
 nohup guake &
 setxkbmap -layout us,br
 setxkbmap -option 'grp:alt_shift_toggle'
 sleep 1
-i3-msg 'workspace 2: Code '
+i3-msg 'workspace 1: Media '
+xset s off
