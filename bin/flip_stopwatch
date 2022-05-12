@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+function flip_stopwatch() 
+{
+	if [ $(</tmp/stopwatch_is_on) = true ]
+	then
+		echo false > /tmp/stopwatch_is_on
+	else
+		echo true > /tmp/stopwatch_is_on
+	fi
+}
+
+flip_stopwatch

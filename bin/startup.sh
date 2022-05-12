@@ -1,5 +1,5 @@
-xrandr --output HDMI-1 --brightness 0.6
-i3-msg 'workspace 1: Media ; exec /usr/bin/firefox'
+xrandr -s 1920x1080
+i3-msg 'workspace 1:  Media; exec /usr/bin/firefox'
 sleep 1
 i3-msg 'workspace 2: Code ; exec code'
 sleep 3 

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+function update_date()
+{
+
+	start_date=`date +%s`;
+	echo $start_date > /tmp/stopwatch_start.date
+
+}
+
+
+function main()
+{
+	if [ $(</tmp/stopwatch_is_on) = 'true' ]
+	then
+		echo "$(date -u --date @$((`date +%s` - $(</tmp/stopwatch_start.date))) +%H:%M:%S)";
+	else
+		update_date
+		echo false > /tmp/stopwatch_is_on;
+		echo ''
+	fi
+}
+
+main
