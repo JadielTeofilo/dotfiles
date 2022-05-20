@@ -231,7 +231,7 @@ bindsym Print exec gnome-screenshot -i
 bindsym $mod+Print exec gnome-screenshot -a
 # bind for clipboard manager
 bindsym Control+$mod+v exec roficlip
-exec clipster -d
+exec export DISPLAY=':0.0' && clipster -d
 
 exec "setxkbmap -layout us,br"
 exec "setxkbmap -option 'grp:alt_shift_toggle'"
