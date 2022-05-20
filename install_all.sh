@@ -21,7 +21,10 @@ sudo apt install apt-transport-https --yes
 sudo echo "deb https://baltocdn.com/i3-window-manager/i3/i3-autobuild/ all main" | sudo tee /etc/apt/sources.list.d/i3-autobuild.list
 
 sudo apt update
-sudo apt install i3 i3blocks i3lock i3status rofi -y
+sudo apt install i3 i3blocks i3lock i3status -y
+
+# Has to be version 1.5.4
+sudo apt install rofi -y
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -81,3 +84,4 @@ wget https://download.jetbrains.com/python/pycharm-community-2022.1.1.tar.gz
 sudo apt-get install -y fonts-font-awesome
 
 sudo apt-get install -y nitrogen
+
