@@ -77,3 +77,5 @@ sudo cp roficlip/roficlip/roficlip /bin/
 
 cd ~/Installed
 wget https://download.jetbrains.com/python/pycharm-community-2022.1.1.tar.gz
+
+sudo apt-get install -y fonts-font-awesome
