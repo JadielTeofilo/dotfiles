@@ -75,4 +75,5 @@ cd ..
 git clone https://github.com/gilbertw1/roficlip.git
 sudo cp roficlip/roficlip/roficlip /bin/
 
-
+cd ~/Installed
+wget https://download.jetbrains.com/python/pycharm-community-2022.1.1.tar.gz
