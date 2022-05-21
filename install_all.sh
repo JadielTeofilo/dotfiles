@@ -24,7 +24,7 @@ sudo apt update
 sudo apt install i3 i3blocks i3lock i3status -y
 
 # Has to be version 1.5.4
-sudo apt install rofi -y
+sudo apt install rofi=1.5.4 -y
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
