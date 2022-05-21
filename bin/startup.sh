@@ -11,3 +11,4 @@ setxkbmap -option 'grp:alt_shift_toggle'
 sleep 1
 i3-msg 'workspace 1: Media '
 xset s off
+xset -dpms
