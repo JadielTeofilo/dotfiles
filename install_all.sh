@@ -85,4 +85,4 @@ sudo apt-get install -y fonts-font-awesome
 
 sudo apt-get install -y nitrogen
 sudo apt install flameshot okular -y
-
+sudo alias docker-compose="docker compose"
