@@ -38,7 +38,7 @@ tar -xvf jetbrains-toolbox-1.24.11947.tar
 nohup ./jetbrains-toolbox-1.24.11947/jetbrains-toolbox
 
 ####### Docker
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
+sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
@@ -52,7 +52,7 @@ sudo usermod -aG docker ${USER}
 su - ${USER}
 sudo apt-get update
 
-sudo apt-get install docker-compose-plugin
+sudo apt-get install docker-compose-plugin -y
 
 
 ##### TZ data
