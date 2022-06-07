@@ -84,5 +84,5 @@ wget https://download.jetbrains.com/python/pycharm-community-2022.1.1.tar.gz
 sudo apt-get install -y fonts-font-awesome
 
 sudo apt-get install -y nitrogen
-sudo apt install flameshot okular -y
+sudo apt install flameshot okular python3-pip -y
 sudo alias docker-compose="docker compose"
