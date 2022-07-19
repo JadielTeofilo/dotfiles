@@ -42,14 +42,14 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec gnome-terminal
 
 # kill focused window
 bindsym $sup+F4 kill
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -config .config/rofi.config -show run
+bindsym $mod+d exec --no-startup-id rofi -show run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -134,9 +134,9 @@ bindsym $mod+0 workspace number $ws10
 
 ### program macros 
 # Production terminal
-bindsym $mod+Control+5 workspace number $ws5; exec /usr/bin/konsole
+bindsym $mod+Control+5 workspace number $ws5; exec /usr/bin/terminator
 # DBs
-bindsym $mod+Control+4 workspace number $ws4; exec /usr/bin/dbeaver
+bindsym $mod+Control+4 workspace number $ws4; exec mongodb-compass; exec mysql-workbench-community;
 # Krakens
 bindsym $mod+Control+6 workspace number $ws6; exec /usr/bin/gitkraken
 
@@ -242,8 +242,8 @@ exec "setxkbmap -layout us,br"
 exec "setxkbmap -option 'grp:alt_shift_toggle'"
 
 for_window [instance="guake"] floating enable
-bindsym Control+mod1+l exec i3lock -i ~/Pictures/firewatch_lock.png
+bindsym Control+mod1+l exec i3lock -i ~/Pictures/revival_1920x1080.png
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id dropbox start
+exec --no-startup-id /home/jadiel/.dropbox-dist/dropboxd
 exec compton -f
 exec /bin/startup.sh

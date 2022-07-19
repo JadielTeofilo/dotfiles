@@ -54,13 +54,19 @@ sudo apt-get update
 
 sudo apt-get install docker-compose-plugin -y
 
+sudo mkdir -p ~/.docker/cli-plugins/
+curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+
+sudo chmod +x ~/.docker/cli-plugins/docker-compose
+docker compose version
+
 
 ##### TZ data
 
 sudo dpkg-reconfigure tzdata
 
 
-wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
+sudo wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
 
 sudo apt-get install guake -y
@@ -79,7 +85,7 @@ git clone https://github.com/gilbertw1/roficlip.git
 sudo cp roficlip/roficlip/roficlip /bin/
 
 cd ~/Installed
-wget https://download.jetbrains.com/python/pycharm-community-2022.1.1.tar.gz
+sudo wget https://download.jetbrains.com/python/pycharm-community-2022.1.1.tar.gz
 
 sudo apt-get install -y fonts-font-awesome
 
@@ -87,5 +93,38 @@ sudo apt-get install -y nitrogen
 sudo apt install flameshot okular python3-pip -y
 sudo alias docker-compose="docker compose"
 
+<<<<<<< Updated upstream
 git clone https://github.com/JadielTeofilo/i3blocks-stop-watch.git
 sudo cp stopwatch /usr/bin
+=======
+
+wget https://go.microsoft.com/fwlink/?LinkID=760868
+sudo apt install ./code_* -y
+
+
+sudo snap install mysql-workbench-community
+
+
+wget https://downloads.mongodb.com/compass/mongodb-compass_1.32.3_amd64.deb
+sudo apt install ./mongodb-compass_*_amd64.deb --fix-broken
+
+### Python 3.6
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev \
+libgdbm-dev libnss3-dev libedit-dev libc6-dev
+
+wget https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz
+
+sudo tar -xzf Python-3.6.15.tgz
+
+cd Python-3.6.15
+sudo ./configure --enable-optimizations  -with-lto  --with-pydebug
+sudo make altinstall
+
+python3.6 -V
+
+####
+
+sudo apt-get -y install terminator
+>>>>>>> Stashed changes
