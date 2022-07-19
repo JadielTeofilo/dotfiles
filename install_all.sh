@@ -86,3 +86,6 @@ sudo apt-get install -y fonts-font-awesome
 sudo apt-get install -y nitrogen
 sudo apt install flameshot okular python3-pip -y
 sudo alias docker-compose="docker compose"
+
+git clone https://github.com/JadielTeofilo/i3blocks-stop-watch.git
+sudo cp stopwatch /usr/bin

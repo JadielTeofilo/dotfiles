@@ -225,6 +225,11 @@ bindsym XF86AudioNext exec playerctl next
 # mic binds
 bindsym Pause exec toggle_mute
 
+# Start/Stop stopwatch
+bindsym $mod+t exec env BLOCK_BUTTON=1 stopwatch
+# Reset stopwatch
+bindsym $mod+Shift+t exec env BLOCK_BUTTON=3 stopwatch
+
 #interactive screenshot by pressing printscreen
 bindsym Print exec gnome-screenshot -i 
 #crop-area screenshot by pressing Mod + printscreen
