@@ -127,3 +127,4 @@ python3.6 -V
 sudo apt-get -y install terminator
 
 sudo ln -s ~/Installed/roficlip/roficlip /bin/roficlip
+sudo ln -s ~/Installed/dotfiles/toggle_mute_mics.sh /bin/toggle_mute
