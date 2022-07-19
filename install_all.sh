@@ -93,10 +93,8 @@ sudo apt-get install -y nitrogen
 sudo apt install flameshot okular python3-pip -y
 sudo alias docker-compose="docker compose"
 
-<<<<<<< Updated upstream
 git clone https://github.com/JadielTeofilo/i3blocks-stop-watch.git
 sudo cp stopwatch /usr/bin
-=======
 
 wget https://go.microsoft.com/fwlink/?LinkID=760868
 sudo apt install ./code_* -y
@@ -127,4 +125,5 @@ python3.6 -V
 ####
 
 sudo apt-get -y install terminator
->>>>>>> Stashed changes
+
+sudo ln -s ~/Installed/roficlip/roficlip /bin/roficlip
